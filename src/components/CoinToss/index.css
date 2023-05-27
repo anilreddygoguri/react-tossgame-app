@@ -34,10 +34,17 @@
 }
 .counts {
   display: flex;
+  flex-direction: column;
   width: 250px;
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (min-width: 500px) {
+  .counts {
+    flex-direction: row;
+  }
+}
+
 .button {
   background-image: linear-gradient(to right, #f9d423, #e2a139);
   border: none;
@@ -51,10 +58,4 @@
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: bold;
-}
-@media screen and (max-width: 400px) {
-  .counts {
-    display: flex;
-    flex-direction: column;
-  }
 }
