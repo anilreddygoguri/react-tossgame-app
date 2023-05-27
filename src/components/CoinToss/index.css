@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.cointoss-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cointoss-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.head-tail-option {
+  color: #334155;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.heads-image {
+  width: 200px;
+}
+.counts {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  border: none;
+  outline: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.count {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+  .counts {
+    display: flex;
+    flex-direction: column;
+  }
+}
